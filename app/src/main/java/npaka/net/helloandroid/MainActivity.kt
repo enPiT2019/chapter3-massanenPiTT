@@ -2,6 +2,7 @@ package npaka.net.helloandroid
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tapHere.setOnClickListener{
-            taxtView.text = "ボタンがタップされました"
+            textView.text = "ボタンがタップされました"
         }
     }
 }
